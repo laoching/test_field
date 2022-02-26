@@ -21,5 +21,6 @@ while True:
             break
         print("wrong answer!")
     # 함수의 반환이 1이 아니면 break
+    # confirm_retry의 리턴 값에 not 연산자를 적용한 것이 결과임
     if not confirm_retry():
         break
